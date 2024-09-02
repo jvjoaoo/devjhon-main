@@ -50,6 +50,7 @@
   background-color: rgba(0, 0, 0, 0);
   top: 30px;
   left: 10px;
+  transition: ease-in-out 0.3s;
 }
 .cabecalhoPrincipal-nav-link:hover::after {
   width: 37px;
