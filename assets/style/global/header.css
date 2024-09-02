@@ -1,0 +1,73 @@
+.container {
+  width: 100%;
+  margin: 0 15px;
+}
+.cabecalhoPrincipal {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  z-index: 99999;
+  transition: all 0.2s ease-in-out;
+}
+.scrollmax {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 30px 0;
+}
+.scrollmin {
+  background-color: rgba(0, 0, 0, 0.98);
+  padding: 10px 0;
+}
+
+.cabecalhoPrincipal .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo__devJhon {
+  width: 150px;
+}
+.cabecalhoPrincipal-nav {
+  display: flex;
+}
+.cabecalhoPrincipal-nav-link {
+  padding: 10px 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  display: block;
+  transition: 0.5s;
+  position: relative;
+}
+.cabecalhoPrincipal-nav-link::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: rgba(0, 0, 0, 0);
+  top: 30px;
+  left: 10px;
+}
+.cabecalhoPrincipal-nav-link:hover::after {
+  width: 37px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: #01b3ff;
+  transition: all 0.2s;
+}
+/*.cabecalhoPrincipal-nav-link:hover {
+  color: #01b3ff;
+}*/
+
+.bg-main01 {
+  height: 100vh;
+  background-color: #070606;
+}
+
+.bg-main02 {
+  height: 100vh;
+  background-color: #3b3a3a;
+}
